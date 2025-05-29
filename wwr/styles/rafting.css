@@ -1,0 +1,299 @@
+
+
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between ;
+    padding: 5px;
+
+}
+
+header img{
+
+    width: 150px;
+    border-radius: 20px;
+    
+
+}
+
+nav a{
+    color: rgb(47, 0, 255);
+    padding-right: 50px;
+    
+    
+}
+
+nav{
+    padding-top: 20px;
+}
+
+
+
+.callout{
+    background-color: aliceblue;
+    padding: 10px;
+    margin-top: 5px;
+
+}
+
+
+.Simon {
+    width: 1250px;
+    
+}
+
+
+.pic{
+
+    width: 50px;
+
+}
+
+
+.Smon {
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /* nav {
+    background-color: rgba(189, 147, 31, 0.438);
+    padding: 10px;
+} */
+
+
+/* }
+
+div {
+    display: grid;
+    grid-template-columns: 10px 1p0x 10px;
+} */
+
+/* .grid {
+    display: grid;
+    align-items: center;
+/* } */
+
+/* main { */
+    /* grid-column: 2/3; */
+    /* margin: 1rem;
+/* } */ 
+
+/* aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 2/2;
+    grid-row: 1/2;
+
+} */
+
+
+
+
+/* nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #fff;/% shorthand for white %/ */
+/* }
+
+
+
+* {
+    margin: 0;
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+/* } */
+
+/* body {
+
+    font-size: 16px;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+
+} */
+
+
+/* nav a {
+    color: rgb(rgb(0, 102, 255));
+    display: block;
+    padding: 10; */
+/* }
+
+h1 {
+    color: rgb(0, 25, 139);
+} */
+
+/* img {
+    width: 1000px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+/* } */
+
+/* p {
+    padding: 25px;
+/* } */ 
+
+/* nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #fff; /% shorthand for white %/ 
+} */
+
+/* body {
+	font-family: acme, sans-serif;
+}
+
+.flex-container {
+	border: 3px dashed darkcyan;
+	background-color: lightyellow;
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+.flex-item {
+	width: 250px;
+	margin: 1rem;
+	border: 1px solid rgb(0 0 0 / 20%);
+	padding: 0.5rem;
+	background-color: #535544;
+	color: #4e272700;
+}
+
+.item1 {
+	min-height: 100px;
+
+}
+.item2 {
+	min-height: 200px;
+}
+.item3 {
+	min-height: 300px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+body {
+	font-family: "Sansita", sans-serif;
+} */
+
+/* nav {
+	background-color: #6189a3; */
+/* }
+nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 900px;
+	margin: 0 auto;
+	justify-content: space-around;
+	align-items: center;
+} */
+
+/* nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+} */
+
+/* p {
+	margin: 1rem;
+	border: 1px solid rgb(0 0 0 / 10%);
+	padding: 1rem;
+	background-color: rgb(195, 187, 238);
+	max-width: 1500px;
+} */
+
+
+
+footer {
+    background-color: steelblue;
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 300;
+    color: yellow; 
+}
+ 
