@@ -1,0 +1,47 @@
+nav {
+    background-color: rgb(226, 228, 233);
+    padding: 2px;
+}
+
+nav a {
+    color: rgb(255, 0, 140);
+    display: block;
+    padding-right: 50px;
+}
+
+header img {
+    width: 100px;
+
+    border-radius: 20px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(226, 228, 233);
+    padding-left: 50px;
+}
+
+h1 {
+    color: blue;
+    background-color: bisque;
+    text-align: center;
+}
+
+.south-africa {
+    width: 300px;
+    border-radius: 3px;
+
+}
+
+footer {
+    margin-top: 1em;
+    background-color: rgb(52, 140, 151);
+    padding: 1px;
+    border-top: 10px solid #000;
+    text-align: center;
+
+
+}
