@@ -1,28 +1,111 @@
 
-
-:root {  
-   --Primary-color: #219ebc;
-   --secondary-color:#023047;
-   --Accent1-color:#023047;
-   --accent2-color:#fb8500;
-
-  
+/* header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
 }
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+} */
+
+.navigation {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.navigation li {
+	flex: 1 1 auto;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+
+/* 
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+
+img {
+  max-width: 220px;
+  max-height: 150px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --Primary-color: #219ebc;
+    --secondary-color: #023047;
+    --Accent1-color: #023047;
+    --accent2-color: #fb8500;
+
+
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Roboto;
 }
 
-header{
+header {
     background-color: var(--Primary-color);
     color: var(--accent2-color);
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
     padding: 5px;
 
 }
@@ -39,7 +122,9 @@ p {
 
 }
 
-header, main, footer {
+header,
+main,
+footer {
     width: 1000px;
     margin: 0 auto;
 
@@ -56,7 +141,7 @@ footer {
     justify-content: space-between;
 }
 
-.hero{ 
+.hero {
     position: relative;
 }
 
@@ -86,41 +171,41 @@ h1 {
     right: 1px;
     padding-top: 0;
 
-    
+
 }
 
 article {
     top: 130px;
     position: absolute;
     right: 0px;
-    color: rgb(231, 105, 105);
-    font-size: 21px;
+    color: rgb(219, 218, 216);
+    font-size: 20px;
     font-weight: bold;
 }
 
 
-header img{
+header img {
 
     width: 150px;
     border-radius: 20px;
-    
+
 
 }
 
-nav a{
+nav a {
     color: rgb(47, 0, 255);
     padding-right: 50px;
-    
-    
+
+
 }
 
-nav{
+nav {
     padding-top: 20px;
 }
 
 
 
-.callout{
+.callout {
     background-color: aliceblue;
     padding: 10px;
     margin-top: 5px;
@@ -130,11 +215,11 @@ nav{
 
 .Simon {
     width: 1250px;
-    
+
 }
 
 
-.pic{
+.pic {
 
     width: 50px;
 
@@ -142,14 +227,40 @@ nav{
 
 
 .Smon {
-    width: 200px;
-    height: 200px;
+    width: 196px;
+    height: 190px;
     
+
 }
 
 
 
+.Simo {
+    /* width: 300px;
+    height: 300px;
 
+    
+   position: center; */
+    
+     display: block;
+    width: 45%;
+    height: auto;
+   
+
+
+}
+
+
+.callout img {
+	float:right;
+	
+	border: 1px solid #000;
+	padding: 5px;
+	background-color: #bbb;
+	width: 300px;
+	height: 200px;
+	
+}
 
 
 
@@ -225,9 +336,9 @@ div {
 /* } */
 
 /* main { */
-    /* grid-column: 2/3; */
-    /* margin: 1rem;
-/* } */ 
+/* grid-column: 2/3; */
+/* margin: 1rem;
+/* } */
 
 /* aside {
     width: 20rem;
@@ -254,7 +365,7 @@ div {
 * {
     margin: 0;
     /* padding: 0; */
-    /* box-sizing: border-box; */
+/* box-sizing: border-box; */
 /* } */
 
 /* body {
@@ -285,7 +396,7 @@ h1 {
 
 /* p {
     padding: 25px;
-/* } */ 
+/* } */
 
 /* nav a {
     display: block;
@@ -385,6 +496,5 @@ footer {
     align-items: center;
     font-size: 1rem;
     font-weight: 300;
-    color: yellow; 
+    color: yellow;
 }
- 
