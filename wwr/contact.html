@@ -1,18 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact Page</title>
+    <meta name="description" content="Our rafting site history">
+    <meta name="Author" content="Simon Mukonda">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
+        <img src="images/g.png" alt="logo" width="50">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact us</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
+    <main>
+        <div class="contact">
+            <h1><b>Contact Splash White Water Rafting</b></h1>
+            <h2><b>Address:</b></h2>
+            <p>Dunkeld Rd, Aberfeldy PH15 2AQ, United Kingdom</p>
+            <h3><b>Phone Number:</b></h3>
+            <p>+44 1887 829706</p>
+            <h4><b>Email:</b></h4>
+            <p>info@rafting.co.uk</p>
+        </div>
+        <div class="smiles">
+            <h5><b>Specialized Support Team</b></h5>
+            <p><b>Director: Mr Mark</b></p>
+            <img src="images/mark.jpeg" alt="happy" width="120">
+            <p>Hey there! Got any problems? let me help you sort them out.</p>
+            <p><b>Head-Secretary: Miss Jeckens</b></p>
+            <img src="images/head.jpeg" alt="happy" width="120">
+            <p>Hi,I'm here to help you get all your planning sorted without any hassle.</p>
+            <p><b>Site Advisor: Mrs Clerk Smith</b></p>
+            <img src="images/cleark.jpeg" alt="happy" width="120">
+            <P>Howdy!I'm so excited to take you on an adventurous journey,i'll be here to ensure your safety and guide
+                you through out the experience..</P>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8780.307296185247!2d-3.8620513690643232!3d56.6213497008948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4888a69d86ef6d8d%3A0xe3e0e412e8059039!2sSplash%20White%20Water%20Rafting!5e0!3m2!1sen!2sza!4v1739029370983!5m2!1sen!2sza"
+                width="600" height="450" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form>
+            <div class="personal">
+                <fieldset>
+                    <legend><b>Personal info</b></legend>
+                    <div class="form-item column1">
+                        <label for="username">Full Name:</label>
+                        <input type="text" id="username" name="username">
+                    </div>
+                    <div class="form-item column1">
+                        <label for="useremail">Email Address</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend><b>Send Us a Messsage</b></legend>
+                    <div class="form-item column2">
+                        <input type="radio" name="massage" id="rad1">
+                        <label for="rad1">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="massage" id="rad2">
+                        <label for="rad2">Resservation Questions</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="massage" id="rad3">
+                        <label for="rad3">Website Suggestion</label>
+                    </div>
+                    <div class="inquiry">
+                        <label for="feedback">Leave us your Inquiry</label>
+                        <textarea id="feedback" name="feedback" rows="5" placeholder="massage inquiry"></textarea>
+                    </div>
+                    <label for="subscribe">Please subscribe to monthly newsletter</label>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                </fieldset>
+                <button type="submit">Submit Your Form</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p class="copyright-text"> © 2025 🌷Simon Mukonda 🌷 </p>
+            <nav class=" socialmedia">
+                <a href=" https://www.facebook.com/ ">
+                    <img src="images/facebook.png" alt="Facebook" width="23">
+                </a>
+                <a href=" https://www.instagram.com/accounts/login/?hl=en ">
+                    <img src="images/instagram.png" alt="Instagrm" width="23">
+                </a>
+                <a href=" https://x.com/i/flow/single_sign_on ">
+                    <img src="images/twitter.png" alt="Twitter" width="23">
+                </a>
+            </nav>
+        </div>
+    </footer>
 </body>
+
 </html>

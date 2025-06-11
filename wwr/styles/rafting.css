@@ -19,6 +19,10 @@ body {
     font-family: Roboto;
 }
 
+h1,h2,h3,h4,h5 {
+    font-weight: bold;
+}
+
 p {
     margin: 16px;
     padding: 8px;
@@ -34,54 +38,40 @@ footer {
 }
 
 header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     background-color: var(--Primary-color);
     color: var(--accent2-color);
     justify-content: space-between;
     padding: 5px;
+    align-items: top;
+    border: 2px solid var(--Accent1-color)
 
 }
 
 header img {
-    margin-left: 100px;
+    margin-left: 10px;
     width: 150px;
     border-radius: 20px;
 }
 
-nav a {
-    color: rgba(255, 0, 0, 0.404);
-    padding-right: 50px;
-
-
-}
-
-nav {
-    padding-top: 20px;
-}
-
-
 nav ul {
     display: flex;
-    flex-wrap: wrap;
     list-style: none;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-nav li {
-    flex: 1 1 auto;
+    margin: 0;
+    gap: 10px;
 }
 
 nav a {
-    display: block;
+    color: rgba(255, 0, 0, 0.404);
+    padding-right: 1px;
+}
+
+nav a {
     color: navy;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
     font-size: 1.2rem;
-}
+} 
 
 nav a:hover {
     color: tomato;
@@ -200,7 +190,7 @@ article {
     align-items: center;
     padding: 10px 20px;
     background-color: var(--Primary-color);
-    border: solid var(--Accent1-color);
+    border: 2px solid var(--Accent1-color);
 }
 
 .copyright-text {
@@ -218,3 +208,63 @@ article {
 .socialmedia a {
     text-decoration: none;
 }
+
+.smiles h5 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.smiles { 
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 2px solid var(--Accent1-color);
+    background-color: var(--Primary-color);
+}
+
+.contact { 
+    background-color: var(--Primary-color);
+    border: 2px solid var(--Accent1-color)
+}
+
+.map { 
+    border: 2px solid var(--Accent1-color);
+    background-color: var(--Primary-color);
+    padding: 0.5rem;
+}
+
+.personal {
+    border: 2px solid var(--Accent1-color);
+    padding: 1rem;
+    background-color: var(--Primary-color);
+}
+
+
+.column1 { 
+    padding: 0.5rem;
+}
+
+fieldset {
+    grid-gap: 0.5rem;
+}
+
+fieldset {
+    border-color: aquamarine;
+    border-width: 0.3rem;
+}
+
+
+.inquiry {
+    display: grid;
+    grid-row: auto;
+}
+
+button { 
+    margin: 1rem;
+    background-color: aquamarine;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
