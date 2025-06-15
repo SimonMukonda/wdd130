@@ -19,15 +19,15 @@ body {
     font-family: Roboto;
 }
 
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: bold;
 }
 
-p {
-    margin: 16px;
-    padding: 8px;
 
-}
 
 header,
 main,
@@ -43,9 +43,8 @@ header {
     color: var(--accent2-color);
     justify-content: space-between;
     padding: 5px;
-    align-items: top;
+    align-items: center;
     border: 2px solid var(--Accent1-color)
-
 }
 
 header img {
@@ -71,7 +70,7 @@ nav a {
     padding: 10px;
     text-decoration: none;
     font-size: 1.2rem;
-} 
+}
 
 nav a:hover {
     color: tomato;
@@ -90,7 +89,7 @@ nav a:hover {
 }
 
 
-h1 {
+.callout {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -106,7 +105,7 @@ h1 {
     width: 125px;
     display: flex;
     position: absolute;
-    top: 48px;
+    top: 30px;
     right: 1px;
     padding-top: 0;
 
@@ -127,6 +126,11 @@ article {
     width: 100%;
 }
 
+.history p {
+    margin: 16px;
+    padding: 8px;
+
+}
 
 .history h2 {
     grid-column: 1/4;
@@ -214,20 +218,36 @@ article {
     font-size: 2rem;
 }
 
-.smiles { 
+.smiles {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 2rem;
     border: 2px solid var(--Accent1-color);
     background-color: var(--Primary-color);
 }
 
-.contact { 
-    background-color: var(--Primary-color);
-    border: 2px solid var(--Accent1-color)
+.smiles h5,
+p {
+    margin-bottom: 1rem;
 }
 
-.map { 
+.contact {
+    background-color: var(--Primary-color);
+    border: 2px solid var(--Accent1-color);
+    padding: 1rem;
+    letter-spacing: 3px;
+}
+
+.contact p {
+    margin: 1rem;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+
+.map {
     border: 2px solid var(--Accent1-color);
     background-color: var(--Primary-color);
     padding: 0.5rem;
@@ -240,7 +260,7 @@ article {
 }
 
 
-.column1 { 
+.column1 {
     padding: 0.5rem;
 }
 
@@ -259,7 +279,7 @@ fieldset {
     grid-row: auto;
 }
 
-button { 
+button {
     margin: 1rem;
     background-color: aquamarine;
     border: none;
@@ -267,4 +287,3 @@ button {
     padding: .75rem;
     font-size: 1.2rem;
 }
-
