@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 nav {
     background-color: rgb(226, 228, 233);
     padding: 2px;
@@ -11,7 +10,7 @@ nav a {
 }
 
 header img {
-    width: 100px;
+    width: 150px;
 
     border-radius: 20px;
 
@@ -29,10 +28,11 @@ h1 {
     color: blue;
     background-color: bisque;
     text-align: center;
+    font-size: 50px;
 }
 
 .south-africa {
-    width: 300px;
+    width: 500px;
     border-radius: 3px;
 
 }
@@ -43,9 +43,10 @@ footer {
     padding: 1px;
     border-top: 10px solid #000;
     text-align: center;
+    font-size: 25px;
+}
 
 
-=======
 nav {
     background-color: rgb(226, 228, 233);
     padding: 2px;
@@ -58,8 +59,7 @@ nav a {
 }
 
 header img {
-    width: 100px;
-
+    width: 150px;
     border-radius: 20px;
 
 }
@@ -76,21 +76,4 @@ h1 {
     color: blue;
     background-color: bisque;
     text-align: center;
-}
-
-.south-africa {
-    width: 300px;
-    border-radius: 3px;
-
-}
-
-footer {
-    margin-top: 1em;
-    background-color: rgb(52, 140, 151);
-    padding: 1px;
-    border-top: 10px solid #000;
-    text-align: center;
-
-
->>>>>>> 093158b7286ec4c2e76367cc7666bdf3a7a9e2a5
 }
