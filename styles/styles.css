@@ -2,6 +2,10 @@ main {
     max-width: 840px;
 }
 
+p {
+    padding: 0;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -15,6 +19,16 @@ aside {
 aside img {
     width: 100px;
     height: auto;
+}
+
+
+main img {
+    height: auto;
+    border: #000;
+    padding: 2px;
+    box-shadow: #333;
+    width: 700px;
+    border-radius: 3px;
 }
 
 
@@ -50,11 +64,7 @@ h1 {
     font-size: 50px;
 }
 
-.south-africa {
-    width: 500px;
-    border-radius: 3px;
 
-}
 
 footer {
     margin-top: 1em;
